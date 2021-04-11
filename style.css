@@ -1,46 +1,70 @@
-* {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-}
-#result_area{
-    background-color: blue;
-}
-body
-{
 
-    background-size: cover;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    font-weight: bold;
-}
-h1
-{
-    text-align: center;
-    font-weight: bold;
-}
-div
-{
-    width:50%;
-    background-color:pink;
-    margin: 20px;
-    padding: 5%;
-    margin: auto;
-}
-input
-{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-}
 
-button{
-    background-color:darkkhaki;
-    font-weight: bold;
+body{
+    background-image: url('covid.jpg');
+    margin:0px;
 
+    
 }
-#url{
-    text-align: center;
-    color:cadetblue;
+#mydiv{
+    height:150px;
+    width:100vw;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+#country{
+    
+    
+    padding: 10px;
+    font-family: calibri;
+    font-size: 15px;
+}
+#start
+{
+   
+    padding: 10px;
+    font-family: calibri;
+    font-size: 15px;
+}
+#end
+{
+   
+    padding: 10px;
+    font-family: calibri;
+    font-size: 15px;
+}
+#submit
+{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    font-family: calibri;
+    background:yellow;
+    color:black;
+}
+#ldiv{
+    height:400px;
+    width:100vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#res{
+    
+   
+    padding: 20px;
+    height: 150px;
+    
+    align-items:center;
+    width:350px;
+    background:yellow;
+    color:black;
+    font-family: calibri;
+    
 }
